@@ -1,0 +1,9 @@
+.csTimes>tbody>tr>td{
+		width:100px;
+	}
+.align-content{
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		margin-top:30px;
+}

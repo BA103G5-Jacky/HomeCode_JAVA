@@ -1,0 +1,515 @@
+/*���呃ss(e.g 摰����argin 15 銝�椰�......)*********************************/
+
+*{
+	
+	/*outline:1px solid red;*/
+}
+
+.mrg-bottom-15{
+	margin-bottom:15px;
+}
+
+.mrg-top-15{
+	margin-top:15px;
+}
+.font-18{
+	font-size:18px;
+}
+.central{
+	text-align:center;
+}
+
+
+.img-va{	/* ��蝵桐葉嚗�閬���镼輻�撅� */
+	  display:flex;
+      align-items:center;
+      justify-content:center;
+}
+.mb20{
+	margin-bottom: 20px;
+}		
+
+/*���呃ss 蝯��*****************************************************************/
+
+body, .font{
+	font-family: "微軟正黑體";
+	
+}			
+
+.aa{
+	text-align: center;
+}
+
+
+.navbar{
+	background:#fff;
+	margin-bottom: 0;
+	box-shadow: 0 1px 6px rgba(57,73,76,.35);
+	
+}
+.navbar-nav  > li > a {padding-top:20px; padding-bottom:10px;}
+.navbar {min-height:70px !important;}
+.navbar-form{ padding-top:5px !important; }
+.unstyled-button, a:hover,  {
+	border:none;
+	background-color: rgba(255,255,255,0);
+   -webkit-box-shadow: none;
+
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover { /*navbar��蝯�����*/
+    color:#5e2b97;
+    background-color: transparent;
+}
+.form-control:focus {	/*input���*/
+    border-color: #5e2b97;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(94,43,151,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(94,43,151,.6);
+}
+
+.carousel-control.right {  /*��拳����*/
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5)));
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.carousel-control.left {  /*��拳撌阡��*/
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.btn-right{
+	margin-top: 12px;
+	padding-top:8px;
+	padding-bottom:10px;
+	padding-left:50px;
+	padding-right:50px;
+	font-size:16px;
+	color:#2c65c1;
+	border-width: 2px;
+}
+
+.margin01{
+	margin-top:11px;
+}
+
+.margin02{
+	margin-top:20px;
+}
+
+.margin03{
+	margin-top:100px;
+}
+
+.right01{
+	margin-left:5px;
+}
+
+.top01{
+	margin-top: 50px;
+}
+
+.btn-color{
+	color:#7e55ab;
+	border-width: 2px;
+	border-color: background-color: rgb(249,249,249);;
+}
+.search-btn{
+	height:100px;
+	width:390px;
+	padding-top: 30px;
+	font-size: 30px;
+}
+.btn-color:focus, .btn-color:active, .btn-color:hover, .btn-color:active:focus{
+	color:#5e2b97;
+	border-color:#5E2B97;
+	background-color: #FFF;
+	border-width: 2px;
+	
+}
+.search-area{
+	
+	margin-bottom: 40px;
+	margin-top:40px;
+}
+
+.light-zone{
+	background:#ffffff;
+	height:200px;
+}
+
+.light-zone01{
+	background:#ffffff;
+	height:550px;
+}
+
+.regular-zone01{
+	background:#fff;
+	height:750px;
+}
+
+.rank-card{
+	height:400px;
+}
+
+.photo-size{
+	height:120px;
+	width:120px;
+}
+
+.hv-central{
+	text-align:center;
+	padding-top: 190px;
+}
+
+.footer{
+	background:#494c68;
+	color:white;
+}
+.input-group-btn{
+	position:absolute;
+	z-index: 5;
+}
+.form-control{
+	padding-left: 50px;
+	padding-bottom: 10px;
+	background-color: rgba(255,255,255,0);
+    border:2px solid circle;
+   
+
+}
+.rank{
+	background-color: #eee;
+}
+.carousel-indicators>li, .carousel-indicators .active{
+	background-color:#494c68;
+
+}
+
+.hiw-icon{
+	height: 135px;
+	margin-bottom: 20px;
+}
+
+.hiw-c{
+	width: 1250px;
+}
+.hiw{
+	background-color: rgb(249,249,249);
+	
+}
+
+.navbar-nav  > li > a.navicon{
+	padding-top: 23px;
+}
+
+
+/* case css 閮剖��===================================================*/
+
+.case{
+	padding-top: 30px;
+}
+.vh_center_right{
+	display:flex;
+	align-items:center;
+	justify-content:flex-end;
+}
+.vh_center_left{
+	display:flex;
+	align-items:center;
+	justify-content:flex-start;
+}
+.btn-square{
+	font-weight: bolder;
+	font-size: 16px;
+	color:#7e55ab;
+	border-radius: 0px;
+	margin-bottom: 20px;
+	width: 100%;
+	box-shadow:0 1px 6px rgba(57,73,76,.35);
+}
+
+.btn-tab-4{
+	font-weight: bolder;
+	font-size: 16px;
+	color:#7e55ab;
+	border-radius: 0px;
+	margin-bottom: 0px;
+	
+	box-shadow:0 1px 6px rgba(57,73,76,.35);
+}
+
+.btn-square:focus, .btn-square:active, .btn-square:hover, .btn-square:active:focus{
+	color:#5e2b97;
+	border-color:#5E2B97;
+	background-color: #FFF;
+	border-width: 1px;
+	box-shadow:0 2px 10px 1px rgba(57,73,76,.4), 0 1px 2px rgba(57,73,76,.25);
+}
+.hr-color{
+	border-color: #ccc;
+	width: 100%;
+}
+.font-content{
+	color:#7d7d7d;
+}
+.tooltip-inner {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.td2{
+	padding: 3px;
+}
+.cs-content{
+	border:solid 2px #e7e7e7;
+	background-color: #fff;
+	padding: 30px;
+	margin-top: 10px;
+}
+.skill{
+	padding-left:10px;
+	padding-right: 10px;
+	background-color: #ccc;
+	border-radius: 5px;
+	color:#444;
+	
+}
+.skill:focus, .skill:active, .skill:hover, .skill:active:focus{
+	background-color: #7e55ab;
+	color:#FFF;	
+}
+.cs-contentnotop{
+	border-top: 0px;
+}
+/* case css 閮剖��===================================================*/
+
+
+
+/*idv 憿舐內�犖閰喟敦鞈��� css**************************************/
+
+.inputtext{
+	border: 1px dotted;
+	height: 34px;
+	width: 300px;
+
+}
+
+.t{
+
+	font-size:20px;
+	font-family: "敺株�迤暺��";
+
+}
+
+.btnlogin{
+	border: 0px;
+	border-radius: 3px;
+	height: 40px;
+	width: 310px;
+	background-color: #8bc34a;
+
+
+}
+.btnsignup{
+	height: 40px;
+	border: 10px;
+	border-radius: 2.4px;
+	width: 100px;
+	background-color: #ffffff;
+	border-color: #666;
+
+
+}
+
+.hint{
+	font-size: 14px;
+}
+
+.iv-d{
+	border-style:outset;
+	background-color: #e9e9e9;
+
+	/*background-color:#00e6b8;*/
+	/*background-color:#b3b3ff;*/
+
+}
+	
+
+
+.idv-list li+li:before{
+	content: '|';
+	padding-right: 1em;
+}
+
+.Portfolio{
+    margin-top: 1em;
+}
+/*idv 憿舐內�犖閰喟敦鞈��� css**************************************/
+
+
+
+/*case-progress css *******************************************/
+
+.case-progress{
+	outline:1px solid red;
+}
+
+#progress {
+    position: relative;
+}
+
+#progress .progressBar {
+    height: 800px;
+    width: 6px;
+    background: #8fe4bf;
+    position: absolute;
+}
+
+#progress .progressNow {
+    height: 100px;
+    width: 6px;
+    background: #00b164;
+    position: absolute;
+}
+
+#progress .progressNow::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #00b164;
+    display: block;
+    margin-left: -5px;
+    position: absolute;
+    top: 90px;
+}
+
+.progress-area{
+	background-color: #f3f3f3;
+}
+
+/*case-progress css end ***************************************/
+
+
+.ProgressBar-step:after, .is-complete .ProgressBar-icon  {
+    background-color: #5e2b97;
+}
+
+
+/*銴ˊmaterialize��ss靘�floating button**********/
+
+
+/**TimeLine��������**/
+@media only screen  and (max-width: 768px) {
+  section#timeline {
+      
+      margin-left: -100px;
+
+  }
+  section#timeline > article.inverted > div.panel {
+      margin-right: -50px;
+  }
+}
+
+
+/* purple for href*/
+.purple:focus, .purple:active, .purple:hover, .purple:active:focus{
+	color:#5e2b97;
+	border-color:#5E2B97;
+}
+.purple{
+	font-weight: bolder;
+	color:#7e55ab;
+}
+
+/*複製materialize的css來套用floating button**********/
+
+.disTimelineCss {
+    width: auto; 
+    font-size: auto; 
+    margin: auto; 
+    padding: auto; 
+    border-radius: 0px; 
+    background: #fafafa; 
+    color: #000; 
+}
+
+/* read more toggle */
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+
+.no-border {
+    border: 0;
+    background-color: #fafafa;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+
+.no-border:focus {	/*削掉input發光色*/
+    border-color: #000;
+    outline: 0;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0), 0 0 0px rgba(0,0,0,0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0), 0 0 0px rgba(0,0,0,0);
+}
+/* 把bootstrap的modalpadding 拿掉 */
+div.mesgBox {
+  padding: 0px;
+}
+div.mesgBox{
+  padding: 0px;
+}
+div.mesgBox{
+  padding: 0px;
+}
+
+.newMesg{
+	width:85.5%; 
+	height:10%; 
+	font-size: 16px;
+}
+.row{
+	margin-bottom:0px;
+}
+
+html, body {
+
+height: 100%;
+margin: 0;
+}
+.wrapper {
+min-height: 100%;
+margin-bottom:-270px;
+}
+
+.inner {
+    background-size:cover;
+    background-position:center center;
+    height: 120px;
+    width:120px;
+    border-radius:50%;
+    margin:auto;
+}
+.rankImg{
+	height:40px;
+	width:40px;
+}
+div.left{
+	text-align:left;
+}
+.rankTitle{
+	padding-top: 20px;
+    padding-bottom: 20px;
+}

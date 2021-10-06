@@ -1,0 +1,22 @@
+.star-vote{
+    width:120px;
+    height:20px;
+    position:relative;
+    overflow:hidden;
+}
+.star-vote>span{
+    position:absolute;
+    width:120px;
+    height:20px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    left:0px;
+    top:0px;
+}
+.star-vote>.add-star{
+    background-image:url("/BA103G5/img/case/star.png");
+}
+.star-vote>.del-star{
+    background-image:url("/BA103G5/img/case/star-trans.png");
+    background-color:#f9f9f9;
+}

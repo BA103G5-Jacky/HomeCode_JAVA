@@ -1,0 +1,77 @@
+.margin-top{
+	margin-top:15px;
+}
+
+.margin-left{
+	margin-left:15px;
+}
+
+.margin-right{
+	margin-right:60px;
+}
+
+
+.font-record{
+	color:#910ece;
+}
+
+ .text-right{
+ 	 text-align: right;
+ }
+.text-center{
+	 text-align: center;
+}
+#new{
+	color:#9EE4A7;
+}
+#new:focus, #new:active, #new:hover, #new:active:focus {
+    color:#9EE4A7;
+    border-color: #9EE4A7;
+}
+
+td:nth-child(even){
+	width: 200px;
+	font-size: 14px;
+}
+td:nth-child(odd){
+	width: 200px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.marginTB15{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.mbName{
+	font-size:25px;
+}
+
+.modal-content.rate{
+	border-radius: 0px;
+	margin-top:50px;
+	width:800px;
+}
+.modal-header{
+	background-color:#5e2b97;
+	color:#fff;
+	font-weight:bold;
+}
+.modal-body textarea{
+	width:100%;
+	padding-left:5px;
+	resize: none;
+	overflow-y: scroll;
+}
+.btn-purple, .btn-purple:active, .btn-purple:hover, .btn-purple:focus{
+	background-color:#5e2b97;
+	color:#fff;
+}
+.modal-dialog{
+	width: 800px;
+	margin:30px auto;
+}
+.portrait{
+	border-radius: 20%;
+	width:120px;
+}

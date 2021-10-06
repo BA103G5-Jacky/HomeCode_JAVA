@@ -1,0 +1,18 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<ul class="pagination">
+	<li><a href="<%=request.getRequestURI()%>?whichPage=1&action=SEARCH_PEOPLE">&laquo;</a></li>
+	<li><a href="<%=request.getRequestURI()%>?whichPage=<%=whichPage-1%>&action=SEARCH_PEOPLE">&lsaquo;</a></li>
+	<td><%
+	for (int i = 1; i <= pageNumber; i++) {%>
+		<c:choose >
+			<c:when test="<%=whichPage==i %>">
+				<li class="active">
+			</c:when>
+			<c:otherwise>
+				<li>
+			</c:otherwise>
+		</c:choose>
+			<a href="<%=request.getRequestURI()%>?whichPage=<%=i%>&action=SEARCH_PEOPLE"><%=i%></a></li><% } %></td>
+		<li><a href="<%=request.getRequestURI()%>?whichPage=<%=whichPage+1%>&action=SEARCH_PEOPLE">&rsaquo;</a></li>
+		<li><a href="<%=request.getRequestURI()%>?whichPage=<%=pageNumber%>&action=SEARCH_PEOPLE">&raquo;</a></li>
+</ul>

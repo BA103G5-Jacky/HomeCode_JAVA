@@ -1,0 +1,175 @@
+body {
+	background-color: #f5f5f5;
+}
+
+/* 尋找案件的整個表單 */
+.search-case {
+	background-color: #fff;
+	margin-top: 28px;
+	font-size: 15px;
+	margin-bottom: 28px;
+}
+
+/* 排行榜ㄉ大小 */
+.rank-card {
+	height: 200px;
+	width: 200px;
+}
+
+/* 搜尋案件標題 */
+#title {
+	height: 50px;
+	text-align: center;
+	font-size: 30px;
+}
+
+/* 每個搜尋條件的div(關鍵字,地區,類型搜尋) */
+.content-all {
+	margin-top: 20px;
+}
+
+/* 地區ㄉselect */
+.location {
+	height: 30px;
+	width: 300px;
+	border: 10px solid;
+	border-color: #8bc34a;
+}
+
+/* 每個inputㄉtext區塊 */
+.input {
+	border: 1.5px solid;
+	height: 34px;
+	width: 250px;
+	border-color: #8bc34a;
+}
+
+/* TOGGLE按鈕!! (WEB/APP切換) */
+.toggle.btn {
+	min-width: 100px;
+	min-height: 35px;
+	margin-left: 28px;
+}
+
+/* 查詢按鈕 */
+#submitbtn {
+	background-color: #8bc34a;
+	border: 1px solid;
+	border-color: #8bc34a;
+	border-radius: 3px;
+	margin-top: 15px;
+	height: 40px;
+	width: 150px;
+}
+
+/* 列表的div */
+.case-div {
+	/* margin-top: 50px; */
+	border-color: #f5f5f5;
+	border: 1px solid;
+}
+
+/* 列表裡的個人照片 */
+.photo-size-forCaseListPhoto {
+	height: 60px;
+	width: 60px;
+}
+/* 列表的文字 */
+span {
+	font-size: 14px;
+}
+
+/* 列表的icon */
+.photo-size-forCseListIcon {
+	height: 20px;
+	width: 20px;
+}
+
+/* 雇用按鈕 */
+.hirebtn {
+	background-color: #8bc34a;
+	border: 0px solid;
+	border-color: #8bc34a;
+	border-radius: 3px;
+	margin-left: 40px;
+	margin-top: 10px;
+	height: 30px;
+	width: 140px;
+}
+
+/* 喜歡按鈕 */
+.savebtn {
+	/* background-color: #8bc34a;	 */
+	border: 0px solid;
+	border-color: #8bc34a;
+	border-radius: 3px;
+	margin-left: 40px;
+	margin-top: 10px;
+	height: 30px;
+	width: 140px;
+}
+/* 一行字寬的空白div */
+#forSpace {
+	height: 20px;
+}
+
+/* 案件列表 */
+.case-list {
+	margin-top: 2px;
+}
+/* 個人列表裡案件的名子 */
+#case-name {
+	font-size: 17px;
+}
+
+.webapp {
+	margin-top: 50px;
+	margin-left: 250px;
+}
+
+.money {
+	width: 80px;
+	border: 1.5px solid;
+	height: 34px;
+	border-color: #8bc34a;
+}
+
+
+
+#errorMessages {
+	font-size: 100px;
+	width: 200px;
+	height: 200px;
+	font-style: red;
+	margin-left: 400px;
+}
+tr{
+	height:50px;
+}
+.green:focus, .green:active, .green:hover, .green:active:focus{
+    color: #8bc34a;
+    border-color: #8bc34a;
+}
+.green{
+    font-weight: bolder;
+    color: #8bc34a;
+}
+.flex-end{
+	display:flex;
+    justify-content:flex-end;
+}
+.row{
+	padding-bottom:20px;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    
+    background-color: #8bc34a;
+    border-color: #8bc34a;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    
+    color: #8bc34a;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #8bc34a;
+}

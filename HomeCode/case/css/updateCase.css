@@ -1,0 +1,114 @@
+.form-control:hover{
+    border-color: #5e2b97;
+}	
+
+.form-control.update{
+    padding-left:5px;
+}
+.select:hover{
+	 color: #fff;
+    border-color: #5e2b97;
+}
+	
+.login{
+		height: 500px;
+		text-align: center;
+		padding-top:120px;
+	}
+
+.inputtext{
+	border: 1px dotted;
+	height: 34px;
+	width: 300px;
+
+}
+
+.t{
+
+	font-size:20px;
+font-family: "·L³n¥¿¶ÂÅé";
+
+}
+
+.btnlogin{
+	border: 0px;
+	border-radius: 3px;
+	height: 40px;
+	width: 310px;
+	background-color: #8bc34a;
+
+
+}
+.btnsignup{
+	height: 40px;
+	border: 10px;
+	border-radius: 2.4px;
+	width: 100px;
+	background-color: #ffffff;
+	border-color: #666;
+
+
+}
+
+.mrg-bottom-15{
+	margin-bottom:15px;
+}
+
+.mrg-top-15{
+	margin-top:15px;
+}
+
+.hint{
+	font-size: 14px;
+}
+
+.iv-d{
+	border-style:outset;
+/* 	background-color: #d9d9d9; */
+/* 	background-color:#BEA2DC; */
+/*	background-color:#00caca;
+*/	
+}
+.label{
+font-size:15px; 
+}
+
+
+.idv-list li+li:before{
+	content: '|';
+	padding-right: 1em;
+}
+
+.Portfolio{
+    margin-top: 15px;
+}
+.textarea {resize:none;}
+.size{
+	font-size: 18px;
+}
+.btn-lpurple {
+    color: #bea2dc;
+    background-color: transparent;
+    border-color: #5e2b97;
+}
+.btn-lpurple:hover,.btn-lpurple:focus{
+    color: #fff;
+    background-color: #5e2b97;
+    border-color: #5e2b97;
+}
+.date{
+	
+	display: inline-block;
+}
+
+img.ui-datepicker-trigger {
+    height: 32px;
+    margin-left:10px;
+}
+.cs-content{
+	margin-top:20px;
+}
+input.form-control.date{
+	display: inline-block;
+	margin-top: 15px;
+}

@@ -1,0 +1,44 @@
+.margin-top-bottom{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+.margin-left{
+	margin-left:15px;
+}
+
+.margin-right{
+	margin-right:60px;
+}
+
+
+.font-record{
+	color:#910ece;
+}
+
+ .text-right{
+ 	 text-align: right;
+ }
+.text-center{
+	 text-align: center;
+}
+.title-bgcolor{
+	background-color:#5e2b97;
+	padding-left:20px;
+}
+.title-bgcolor>h2{
+	color:#fff;
+}
+.padding-15{
+	padding:15px;
+}
+.hr-color-date{
+	border-color: #ccc;
+
+}
+.cs-content-nb{
+	padding: 15px;
+}
+.form-control.rpcs{
+	padding-left:5px;
+}
